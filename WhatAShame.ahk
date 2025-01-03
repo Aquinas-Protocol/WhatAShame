@@ -3,13 +3,15 @@
 global ThirdP := false
 global NoClip := false
 
+cheatKey := "``"
+
 ;Sends a passed command to in game cheat menu ~
 RunCMD(cmd)
 {
-    Send "``"
+    Send cheatKey
 	Send cmd
 	Send "{Enter}"
-	Send "``"
+	Send cheatKey
 }
 
 Tab & m::RunCMD("summon multitool")   ;execute summon multitool command
@@ -30,14 +32,14 @@ Tab & g::RunCMD("god")   ;toggles God mode
 
 Tab & s::  ;open summon command (type items manually)
 {
-	Send "``"
+	Send cheatKey
 	Send "summon "
 }
 
 
 LShift & s::  ;open spawnmass command (type items manually)
 {
-	Send "``"
+	Send cheatKey
 	Send "spawnmass "
 }
 
