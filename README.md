@@ -1,5 +1,5 @@
 # WhatAShame.ahk
-![Gif](https://tenor.com/view/what-a-shame-deus-ex-adam-jensen-shame-sad-gif-26336775)
+
 
 Simple AutoHotkey Script with Hotkey Controls for Deus Ex Cheat Commands.
 
